@@ -5,7 +5,7 @@ Release: 1
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
 Group: Qt/Qt
-URL: http://example.org/
+URL: https://github.com/fridlmue/harbour-btvol
 License: LICENSE
 # This must be generated before uploading a package to a remote build service.
 # Usually this line does not need to be modified.
@@ -26,6 +26,7 @@ PkgConfigBR:
 # Build dependencies without a pkgconfig setup can be listed here
 PkgBR:
   - qt5-qtconnectivity-qtbluetooth-devel
+  - qt5-qttools-linguist
 #   - package-needed-to-build
 
 # Runtime dependencies which are not automatically detected
