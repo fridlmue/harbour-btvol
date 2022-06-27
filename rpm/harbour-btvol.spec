@@ -13,7 +13,7 @@ Version:    0.1
 Release:    1
 Group:      Qt/Qt
 License:    LICENSE
-URL:        http://example.org/
+URL:        https://github.com/fridlmue/harbour-btvol
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-btvol.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -23,6 +23,7 @@ BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  qt5-qtconnectivity-qtbluetooth-devel
+BuildRequires:  qt5-qttools-linguist
 BuildRequires:  desktop-file-utils
 
 %description
