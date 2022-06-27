@@ -6,7 +6,7 @@ Release: 1
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
 Group: Qt/Qt
 URL: https://github.com/fridlmue/harbour-btvol
-License: LICENSE
+License: GPL3
 # This must be generated before uploading a package to a remote build service.
 # Usually this line does not need to be modified.
 Sources:
@@ -25,14 +25,14 @@ PkgConfigBR:
 
 # Build dependencies without a pkgconfig setup can be listed here
 PkgBR:
-  - qt5-qtconnectivity-qtbluetooth-devel
+#  - qt5-qtconnectivity-qtbluetooth-devel
   - qt5-qttools-linguist
 #   - package-needed-to-build
 
 # Runtime dependencies which are not automatically detected
 Requires:
   - sailfishsilica-qt5 >= 0.10.9 
-  - qt5-qtconnectivity-qtbluetooth
+#  - qt5-qtconnectivity-qtbluetooth
 
 # All installed files
 Files:

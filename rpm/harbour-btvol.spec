@@ -12,17 +12,15 @@ Summary:    BT device Volume Control
 Version:    0.1
 Release:    1
 Group:      Qt/Qt
-License:    LICENSE
+License:    GPL3
 URL:        https://github.com/fridlmue/harbour-btvol
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-btvol.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
-Requires:   qt5-qtconnectivity-qtbluetooth
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Quick)
-BuildRequires:  qt5-qtconnectivity-qtbluetooth-devel
 BuildRequires:  qt5-qttools-linguist
 BuildRequires:  desktop-file-utils
 
