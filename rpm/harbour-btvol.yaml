@@ -24,13 +24,14 @@ PkgConfigBR:
   - Qt5Quick
 
 # Build dependencies without a pkgconfig setup can be listed here
-# PkgBR:
+PkgBR:
+  - qt5-qtconnectivity-qtbluetooth-devel
 #   - package-needed-to-build
 
 # Runtime dependencies which are not automatically detected
 Requires:
   - sailfishsilica-qt5 >= 0.10.9 
-  - kf5bluezqt
+  - qt5-qtconnectivity-qtbluetooth
 
 # All installed files
 Files:
