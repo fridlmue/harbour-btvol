@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-btvol
+Exec=harbour-btvol
+Name=BtVol
+# translation example:
+# your app name in German locale (de)
+#
+# Remember to comment out the following line, if you do not want to use
+# a different app name in German locale (de).
+
+[X-Sailjail]
+# Replace with your organization as a reverse domain name
+Sandboxing=Disabled
+OrganizationName=de.ioevi
+# ApplicationName does not have to be identical to Name
+ApplicationName=btvol
+# Add the required permissions here
+Permissions=
