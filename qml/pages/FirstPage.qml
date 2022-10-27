@@ -9,6 +9,9 @@ Page {
     property QtObject adapter: _bluetoothManager ? _bluetoothManager.usableAdapter : null
     property QtObject _bluetoothManager : BluezQt.Manager
 
+    //
+    // FormattingProxyModel <- Check for Filter
+
     property string _deviceAddress
     property bool volumeUp: true
 
@@ -26,7 +29,7 @@ Page {
     }
 
     function getBattPercent(model) {
-        if (model.battery !== "undefined") {
+        if (typeof model.battery !== "undefined") {
             return " - " + qsTr("Battery: ") + model.battery
         }
         return ""
@@ -38,7 +41,6 @@ Page {
             startDiscovery()
         }
     }
-
 
     SilicaListView {
             id: listView
@@ -56,7 +58,7 @@ Page {
                 id: listItem
                 onClicked: {
                     _deviceAddress = "/org/bluez/hci0/dev_" + model.Address.split(":").join("_");
-                    console.log(_deviceAddress);
+                    // console.log(_deviceAddress);
                     if (volumeUp) {
                         dbusbluez.volumeUp();
                     } else {
@@ -64,6 +66,7 @@ Page {
                     }
 
                 }
+                hidden: !model.Connected
 
 
                 Item {
@@ -73,13 +76,14 @@ Page {
                       margins: Theme.horizontalPageMargin
                       verticalCenter: parent.verticalCenter
                   }
-                  height: nameLabel.height + addressLabel.height + Theme.paddingSmall
-                  visible: model.Connected
+                  //height: model.Connected ? nameLabel.height + addressLabel.height + Theme.paddingSmall : 0
+                  // visible: model.Connected
 
                   Label {
                       id: nameLabel
                       width: parent.width
                       text: model.FriendlyName
+                      // height: model.Connected ? nameLabel.height : 0
                       color: listItem.pressed ? Theme.highlightColor : Theme.primaryColor
                   }
 
@@ -92,6 +96,7 @@ Page {
                       }
                       width: parent.width
                       text: model.Address + getBattPercent(model)
+                      // height: model.Connected ? addressLabel.height : 0
                       color: listItem.pressed ? Theme.secondaryHighlightColor : Theme.secondaryColor
                   }
 
@@ -126,7 +131,7 @@ Page {
             bus: DBus.SystemBus
             service: 'org.bluez'
             iface: 'org.bluez.MediaControl1'
-            //path: '/org/bluez/hci0/dev_F8_4E_17_B5_66_89' //_deviceAddress
+            //path: '/org/bluez/hci0/dev_00_00_00_00_00_00' //_deviceAddress
             path: _deviceAddress
 
             function volumeUp() {
