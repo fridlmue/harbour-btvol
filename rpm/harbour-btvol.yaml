@@ -1,6 +1,6 @@
 Name: harbour-btvol
 Summary: BT device Volume Control
-Version: 0.1
+Version: 1.0
 Release: 1
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
@@ -12,7 +12,7 @@ License: GPL3
 Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |
-  Short description of my Sailfish OS Application
+  App to change internal volume of some BT devices
 Builder: qmake5
 
 # This section specifies build dependencies that are resolved using pkgconfig.

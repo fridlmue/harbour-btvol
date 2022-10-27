@@ -9,7 +9,7 @@ Name:       harbour-btvol
 # << macros
 
 Summary:    BT device Volume Control
-Version:    0.1
+Version:    1.0
 Release:    1
 Group:      Qt/Qt
 License:    GPL3
@@ -26,7 +26,7 @@ BuildRequires:  qt5-qttools-linguist
 BuildRequires:  desktop-file-utils
 
 %description
-Short description of my Sailfish OS Application
+App to change internal volume of some BT devices
 
 
 %prep
