@@ -17,6 +17,7 @@ CONFIG += sailfishapp
 SOURCES += src/harbour-btvol.cpp
 
 DISTFILES += qml/harbour-btvol.qml \
+    btvol.svg \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
     rpm/harbour-btvol.changes.in \
@@ -24,7 +25,8 @@ DISTFILES += qml/harbour-btvol.qml \
     rpm/harbour-btvol.spec \
     rpm/harbour-btvol.yaml \
     translations/*.ts \
-    harbour-btvol.desktop
+    harbour-btvol.desktop \
+    translations/harbour-btvol-sv.ts
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
@@ -37,3 +39,6 @@ CONFIG += sailfishapp_i18n
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
 TRANSLATIONS += translations/harbour-btvol-de.ts
+
+RESOURCES += \
+    res.qrc
