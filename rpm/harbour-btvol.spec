@@ -9,7 +9,7 @@ Name:       harbour-btvol
 # << macros
 
 Summary:    BT device Volume Control
-Version:    1.0
+Version:    1.1
 Release:    1
 Group:      Qt/Qt
 License:    GPL3
