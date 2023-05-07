@@ -28,6 +28,25 @@ BuildRequires:  desktop-file-utils
 %description
 App to change internal volume of some BT devices
 
+# This description section includes metadata for SailfishOS:Chum, see
+# https://github.com/sailfishos-chum/main/blob/main/Metadata.md
+%if 0%{?_chum}
+Title: BtVol
+Type: desktop-application
+DeveloperName: fridlmue
+Categories:
+ - Utility
+Custom:
+  Repo: https://github.com/fridlmue/harbour-btvol
+PackageIcon: https://github.com/fridlmue/harbour-btvol/raw/main/icons/172x172/harbour-btvol.png
+Screenshots:
+ - https://github.com/fridlmue/harbour-btvol/raw/main/screenshots/about.png
+ - https://github.com/fridlmue/harbour-btvol/raw/main/screenshots/dev_list.png
+Links:
+  Homepage: https://github.com/fridlmue/harbour-btvol
+  Help: https://github.com/fridlmue/harbour-btvol/discussions
+  Bugtracker: https://github.com/fridlmue/harbour-btvol/issues
+%endif
 
 %prep
 %setup -q -n %{name}-%{version}
