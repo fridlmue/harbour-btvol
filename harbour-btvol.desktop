@@ -12,7 +12,8 @@ Name=BtVol
 
 [X-Sailjail]
 # Replace with your organization as a reverse domain name
-Sandboxing=Disabled
+# Sandboxing=Disabled
+Permissions=Bluetooth
 OrganizationName=de.ioevi
 # ApplicationName does not have to be identical to Name
 ApplicationName=btvol
