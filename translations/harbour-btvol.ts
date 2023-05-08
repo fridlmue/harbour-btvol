@@ -16,7 +16,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Send E-Mail</source>
+        <source>Send e-mail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -58,11 +58,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Tap on Device to increase internal Volume</source>
+        <source>Tap on device to increase internal volume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Tap on Device to decrease internal Volume</source>
+        <source>Tap on device to decrease internal volume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
