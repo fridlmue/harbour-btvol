@@ -118,7 +118,7 @@ Page {
                 PageHeader {
                     id: header
                     title: qsTr("Device List")
-                    description: volumeUp ? qsTr("Tap on Device to increase internal Volume") : qsTr("Tap on Device to decrease internal Volume")
+                    description: volumeUp ? qsTr("Tap on device to increase internal volume") : qsTr("Tap on device to decrease internal volume")
                 }
             }
             VerticalScrollDecorator { flickable: listView }

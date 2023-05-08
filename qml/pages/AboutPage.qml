@@ -74,7 +74,7 @@ Page {
             }
 
             Text {
-                            text: "<a href=\"mailto:avarisk@10hoch-6.de\">" + qsTr("Send E-Mail") + "</a>"
+                            text: "<a href=\"mailto:avarisk@10hoch-6.de\">" + qsTr("Send e-mail") + "</a>"
                             anchors {
                                 horizontalCenter: parent.horizontalCenter
                             }

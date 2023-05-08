@@ -16,10 +16,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Send E-Mail</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Licensed under GNU GPLv3</source>
         <translation type="unfinished"></translation>
     </message>
@@ -29,6 +25,10 @@
     </message>
     <message>
         <source>Some code is based on snippets from Piggz Amazfish project. https://github.com/piggz/harbour-amazfish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Send e-mail</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -58,15 +58,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Tap on Device to increase internal Volume</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Tap on Device to decrease internal Volume</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tap on device to increase internal volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tap on device to decrease internal volume</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

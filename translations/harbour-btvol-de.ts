@@ -16,10 +16,6 @@
         <translation>Von Friedrich Mütschele</translation>
     </message>
     <message>
-        <source>Send E-Mail</source>
-        <translation>E-Mail senden</translation>
-    </message>
-    <message>
         <source>Licensed under GNU GPLv3</source>
         <translation>Lizensiert unter der GNU GPLv3</translation>
     </message>
@@ -30,6 +26,10 @@
     <message>
         <source>Some code is based on snippets from Piggz Amazfish project. https://github.com/piggz/harbour-amazfish</source>
         <translation>Teile des Codes bassieren auf Piggz Amazfish Projekt. https://github.com/piggz/harbour-amazfish</translation>
+    </message>
+    <message>
+        <source>Send e-mail</source>
+        <translation>E-Mail</translation>
     </message>
 </context>
 <context>
@@ -58,16 +58,16 @@
         <translation>Lautstärke senken</translation>
     </message>
     <message>
-        <source>Tap on Device to increase internal Volume</source>
+        <source>About</source>
+        <translation>Über</translation>
+    </message>
+    <message>
+        <source>Tap on device to increase internal volume</source>
         <translation>Drücke auf ein BT-Gerät für Lauter</translation>
     </message>
     <message>
-        <source>Tap on Device to decrease internal Volume</source>
+        <source>Tap on device to decrease internal volume</source>
         <translation>Drücke auf ein BT-Gerät für Leiser</translation>
-    </message>
-    <message>
-        <source>About</source>
-        <translation>Über</translation>
     </message>
 </context>
 </TS>
