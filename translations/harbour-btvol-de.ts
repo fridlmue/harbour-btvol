@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>SailfishOS Bluetooth Device Volume Control</source>
-        <translation>Lautst qrkeanpassung für Bt-Geräte</translation>
+        <translation>Lautstärkeanpassung für Bt-Geräte</translation>
     </message>
     <message>
         <source>By Friedrich Mütschele</source>
