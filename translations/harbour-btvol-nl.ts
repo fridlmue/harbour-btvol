@@ -5,69 +5,69 @@
     <name>AboutPage</name>
     <message>
         <source>About BtVol</source>
-        <translation type="unfinished"></translation>
+        <translation>Over BtVol</translation>
     </message>
     <message>
         <source>SailfishOS Bluetooth Device Volume Control</source>
-        <translation type="unfinished"></translation>
+        <translation>SailfishOS Bluetooth Apparaatvolumebeheer</translation>
     </message>
     <message>
         <source>By Friedrich Mütschele</source>
-        <translation type="unfinished"></translation>
+        <translation>Door Friedrich Mütschele</translation>
     </message>
     <message>
         <source>Send e-mail</source>
-        <translation type="unfinished"></translation>
+        <translation>Zend e-mail</translation>
     </message>
     <message>
         <source>Licensed under GNU GPLv3</source>
-        <translation type="unfinished"></translation>
+        <translation>Gelicenseerd onder de GNU GPLv3</translation>
     </message>
     <message>
         <source>Sources on GitHub</source>
-        <translation type="unfinished"></translation>
+        <translation>Broncode op GitHub</translation>
     </message>
     <message>
         <source>Some code is based on snippets from Piggz Amazfish project. https://github.com/piggz/harbour-amazfish</source>
-        <translation type="unfinished"></translation>
+        <translation>Delen van de code is gebaseerd op Piggz Amazfish project. https://github.com/piggz/harbour-amazfish</translation>
     </message>
 </context>
 <context>
     <name>CoverPage</name>
     <message>
         <source>BT Volume Control</source>
-        <translation>Bluetooth volymkontroll</translation>
+        <translation>BT Volume Control</translation>
     </message>
 </context>
 <context>
     <name>FirstPage</name>
     <message>
         <source>Battery: </source>
-        <translation>Batteri: </translation>
+        <translation>Batterij: </translation>
     </message>
     <message>
         <source>Device List</source>
-        <translation>Enhetslista</translation>
+        <translation>Apparaatlijst</translation>
     </message>
     <message>
         <source>Increase Volume</source>
-        <translation>Höj volymen</translation>
+        <translation>Volume Verhogen</translation>
     </message>
     <message>
         <source>Decrease Volume</source>
-        <translation>Sänk volymen</translation>
+        <translation>Volume Verlagen</translation>
     </message>
     <message>
         <source>Tap on device to increase internal volume</source>
-        <translation>Tryck på enheten för att höja intern volym</translation>
+        <translation>Tik op een apparaat om intern volume te verhogen</translation>
     </message>
     <message>
         <source>Tap on device to decrease internal volume</source>
-        <translation>Tryck på enheten för att sänka intern volym</translation>
+        <translation>Tik op een apparaat om intern volume te verlagen</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Over</translation>
     </message>
 </context>
 </TS>
