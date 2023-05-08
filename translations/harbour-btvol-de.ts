@@ -25,7 +25,7 @@
     </message>
     <message>
         <source>Some code is based on snippets from Piggz Amazfish project. https://github.com/piggz/harbour-amazfish</source>
-        <translation>Teile des Codes bassieren auf Piggz Amazfish Projekt. https://github.com/piggz/harbour-amazfish</translation>
+        <translation>Teile des Codes basieren auf Piggz Amazfish Projekt. https://github.com/piggz/harbour-amazfish</translation>
     </message>
     <message>
         <source>Send e-mail</source>
