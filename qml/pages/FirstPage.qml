@@ -71,7 +71,7 @@ Page {
             delegate: ListItem {
                 id: listItem
                 onClicked: {
-                    dbusbluez._deviceAddress = "/org/bluez/hci0/dev_" + model.Address.split(":").join("_");
+                    dbusbluez._deviceAddress = model.Ubi;
                     coverExchange.bt_dev = model.FriendlyName
                     coverExchange.initialized = true
                     if (volumeUp) {
