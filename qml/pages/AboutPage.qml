@@ -40,7 +40,7 @@ Page {
             }
 
             Label {
-                text: "BtVol 1.2"
+                text: "BtVol 1.3"
                 horizontalAlignment: Text.AlignHCenter
                 font.pixelSize: Theme.fontSizeExtraLarge
                 anchors {
